@@ -1,0 +1,155 @@
+@media (min-width: 320px) {
+  .bg_image {
+    background: url("../../../assets/BG Cover/BG Cover.webp");
+    background-size: cover;
+    width: 100vw;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg_image {
+    background: url("../../../assets/BG Cover/BG Cover@2x.webp");
+    background-size: cover;
+    width: 100vw;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg_image {
+    background: url("../../../assets/BG Cover/BG Cover@3x.webp");
+    background-size: cover;
+    width: 100vw;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+}
+
+.logo {
+  padding-top: 4%;
+}
+
+.nav {
+  margin-left: 13.1%;
+  margin-top: -2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navText {
+  width: auto;
+  height: 2%;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #feffff;
+  margin-right: 5%;
+}
+
+.logosContainer {
+  margin-left: 40%;
+  display: flex;
+  flex-direction: row;
+  margin-top: -1.8%;
+}
+
+.logosSpaceMargin {
+  margin-right: 25%;
+}
+
+.businessExpenseManagementMadeEasy {
+  width: 44%;
+  height: 21%;
+  margin-top: 13%;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  font-family: Gilroy;
+  font-size: 55px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+
+.controlSpendSave {
+  width: 44%;
+  height: 4%;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.tryItForFreeContainer {
+  margin-top: 11%;
+  width: 11%;
+  height: 6%;
+  background-color: #306bdd;
+  display: grid;
+  place-items: center;
+  margin-right: 1%;
+}
+
+.tryItForFreeText {
+  padding-top: 5%;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
+
+.getYourDemoContainer {
+    margin-top: 11%;
+    width: 11%;
+    height: 6%;
+    display: grid;
+    place-items: center;
+    border: solid 1px white;
+}
+
+.poweredByText {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d7d9de;  
+}
+
+.poweredByContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.horizontallyDivider {
+    margin-top: .2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #d7d9de;
+    height: 40px;
+}
