@@ -1,7 +1,3 @@
-/**
- * i18n landing namespace
- * Consist of English and arabic translations
- */
 export const landingNameSpace = {
   en: {
     UNPROTECTED_LANDING_PAGE: "This is an unprotected Landing Page",

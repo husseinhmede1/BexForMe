@@ -15,14 +15,11 @@ i18n
     },
     fallbackLng: "en",
     debug: false,
-
-    keySeparator: false, // we use content as keys
-
+    keySeparator: false, 
     interpolation: {
-      escapeValue: false, // not needed for react!!
+      escapeValue: false, 
       formatSeparator: ",",
     },
-
     react: {
       wait: true,
     },

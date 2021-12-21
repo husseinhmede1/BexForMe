@@ -15,11 +15,9 @@ const App = (props: ReduxProps) => {
   const { i18n } = useTranslation();
   const { promiseInProgress } = usePromiseTracker();
 
-  /** This useEffect rerenders dir */
   useEffect(() => {}, [i18n.language]);
 
   return (
-    /* This wrapper handles rtl and ltr directions for i18n */
     <ConfigProvider direction={i18n.dir()}>
       <AppRouter />
       <Spin spinning={promiseInProgress} />
@@ -27,20 +25,10 @@ const App = (props: ReduxProps) => {
   );
 };
 
-/**
- * Maps state variables from redux store to props of currect component
- * @param state
- */
 const mapStateToProps = (state: RootState) => ({});
 
-/**
- * Maps actions from slices to props
- */
 const mapDispatchToProps = {};
 
-/**
- * Connects component to redux store
- */
 const connector = connect(mapStateToProps, mapDispatchToProps);
 const AppRedux = connector(App);
 
