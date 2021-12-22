@@ -3,8 +3,10 @@
     background: url("../../../assets/BG Cover/BG Cover.webp");
     background-size: cover;
     width: 100vw;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    position: relative;
+    z-index: 1;
   }
 }
 
@@ -15,6 +17,8 @@
     width: 100vw;
     padding-left: 7.5%;
     padding-right: 7.5%;
+    position: relative;
+    z-index: 1;
   }
 }
 
@@ -25,6 +29,8 @@
     width: 100vw;
     padding-left: 7.5%;
     padding-right: 7.5%;
+    position: relative;
+    z-index: 1;
   }
 }
 
@@ -54,7 +60,8 @@
 }
 
 .logosContainer {
-  margin-left: 40%;
+  position: absolute;
+  right: 10%;
   display: flex;
   flex-direction: row;
   margin-top: -1.8%;
@@ -120,36 +127,37 @@
 }
 
 .getYourDemoContainer {
-    margin-top: 11%;
-    width: 11%;
-    height: 6%;
-    display: grid;
-    place-items: center;
-    border: solid 1px white;
+  margin-top: 11%;
+  width: 11%;
+  height: 6%;
+  display: grid;
+  place-items: center;
+  border: solid 1px white;
 }
 
 .poweredByText {
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.86;
-    letter-spacing: normal;
-    text-align: left;
-    color: #d7d9de;  
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d7d9de;
 }
 
 .poweredByContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  padding-bottom: 20%;
 }
 
-.horizontallyDivider {
-    margin-top: .2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    border-left: 1px solid #d7d9de;
-    height: 40px;
+.divider {
+  margin-top: 0.2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-left: 1px solid #d7d9de;
+  height: 40px;
 }

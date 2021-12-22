@@ -48,10 +48,11 @@ const FirstContainer = (props: Props) => {
           <p className={styles.poweredByText}>{t("POWERED_BY")}</p>
           <img src={AreebaLogo} />
         </div>
-        <div className={styles.horizontallyDivider}/>
+        <div className={styles.divider}/>
         <div>
           <p className={styles.poweredByText}>{t("IN_PARTNERSHIP_WITH")}</p>
           <img src={MastercardLogo} />
+          <div className={styles.emptySpace}/>
         </div>
       </div>
     </div>
