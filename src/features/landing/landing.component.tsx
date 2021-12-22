@@ -7,6 +7,7 @@ import { RootState } from "&store/store";
 import { FirstContainer } from "&styled/firstContainer/firstContainer/firstContainer.component";
 import { SecondContainer } from "&styled/secondContainer/secondContainer.component";
 import { ThirdContainer } from "&styled/thirdContainer/thirdContainer.component";
+import { BexPros } from "&styled/bexPros/bexPros.component";
 
 type ReduxProps = ConnectedProps<typeof connector>;
 
@@ -17,11 +18,10 @@ const LandingComponent = (props: ReduxProps) => {
 
   return (
     <>
-    <div>
     <FirstContainer t={t}/>
     <SecondContainer t={t} />
     <ThirdContainer t={t} />
-    </div>
+    <BexPros/>
     </>
   );
 };

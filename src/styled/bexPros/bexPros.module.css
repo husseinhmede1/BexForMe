@@ -1,0 +1,77 @@
+.container {
+  height: 770px;
+  background-color: #306bdd;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  display: flex;
+  justify-content: start;
+}
+
+.circle {
+  height: 46px;
+  width: 46px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-radius: 47px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 188px;
+  margin-right: 24px;
+}
+
+.numberText {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 6px;
+  color: #30c6c6;
+}
+
+.row {
+  display: flex;
+  justify-content: start;
+}
+
+.saveText {
+  font-family: Gilroy;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30c6c6;
+  margin-top: 203px;
+}
+
+.timeIsMoney {
+  margin-top: 8%;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fcfcfc;
+}
+
+.signText {
+  margin-left: 2%;
+  margin-top: 45px;
+  width: 62%;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  color: white;
+}

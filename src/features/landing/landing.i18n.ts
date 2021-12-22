@@ -22,6 +22,11 @@ export const landingNameSpace = {
     APPLY_SPENDING_LIMITS: "Apply spending limits and restrictions based on each employee profile and business needs",
     CONTROL: "Control",
     SPEND: "Spend",
+    SAVE: "Save",
+    TIME_IS_MONEY: "Time is money.",
+    SAVE_BOTH: "Save both",
+    DIGITIZE_YOUR_BUSINESS: "Digitize your business expense process to reduce your admin cost",
+    IDENTIDY_WASTEFUL_SPEND: "Identify wasteful spend with one dashboard for all your expenses",
   },
   ar: {
   },
