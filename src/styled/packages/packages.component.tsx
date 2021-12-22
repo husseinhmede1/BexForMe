@@ -87,7 +87,7 @@ const Packages = (props: Props) => {
           </p>
           <div
             className={styles.packageButton}
-            style={{ backgroundColor: "#306bdd" }}
+            style={{ backgroundColor: "#30c675" }}
           >
             <p className={styles.contactUs}>{t("CONTACT_US")}</p>
           </div>
@@ -120,7 +120,7 @@ const Packages = (props: Props) => {
           <p className={styles.packageStolenCardCurrency}>{t("FREE_UP_TO_FIVE")}</p>
           <div
             className={styles.packageButton}
-            style={{ backgroundColor: "#306bdd" }}
+            style={{ backgroundColor: "#00194a" }}
           >
             <p className={styles.contactUs}>{t("CONTACT_US")}</p>
           </div>
