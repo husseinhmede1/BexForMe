@@ -37,7 +37,7 @@ export const landingNameSpace = {
     DIGITAL_CARD: "Digital card",
     CARD_CONTROLS: "Card control",
     STOLEN_CARD_FEE: "Stolen card fee",
-    BENEFIT_MESSAGE_ONE: "aed 10 on Additional account",
+    BENEFIT_MESSAGE_ONE: "AED 10 on Additional account",
     UP_TO_FIVE_USERS: "Up to 5 users",
     PRO: "Pro",
     PHYSICAL_CARD_REQUEST: "Physical card request",
