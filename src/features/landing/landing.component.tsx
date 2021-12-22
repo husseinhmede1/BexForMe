@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { RootState } from "&store/store";
 import { FirstContainer } from "&styled/firstContainer/firstContainer/firstContainer.component";
 import { SecondContainer } from "&styled/secondContainer/secondContainer.component";
+import { ThirdContainer } from "&styled/thirdContainer/thirdContainer.component";
 
 type ReduxProps = ConnectedProps<typeof connector>;
 
@@ -19,6 +20,7 @@ const LandingComponent = (props: ReduxProps) => {
     <div>
     <FirstContainer t={t}/>
     <SecondContainer t={t} />
+    <ThirdContainer t={t} />
     </div>
     </>
   );

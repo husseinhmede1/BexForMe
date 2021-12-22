@@ -1,0 +1,103 @@
+.container {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(240, 240, 240, 0.41);
+  height: 915px;
+}
+
+.title {
+  height: 15%;
+  padding-top: 10%;
+  font-family: Gilroy;
+  font-size: 65px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  text-align: center;
+  color: #306bdd;
+}
+
+.row {
+  display: flex;
+}
+
+.numbersDiv {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 10%;
+}
+
+.numberContainer {
+  height: 46px;
+  width: 46px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-radius: 47px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.numberText {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.numberTitle {
+  font-family: Gilroy;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 0.53;
+  text-align: left;
+}
+
+.dottedDivider {
+  border-left: 1px dotted #707070;
+  height: 47px;
+  margin-left: 23px;
+}
+
+.digitizeYourExpensePolicy {
+  margin-top: 10%;
+  width: 50%;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00194a;
+}
+
+.setYourSpendingPolicies {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 2%;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00194a;
+}
+
+.imageContainer {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 10%;
+}

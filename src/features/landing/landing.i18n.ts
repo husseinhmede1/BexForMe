@@ -15,6 +15,13 @@ export const landingNameSpace = {
     FIRST_ICON_TEXT: "Lack of visibility on: How, where and how much employees are spending",
     SECOND_ICON_TEXT: "No tools in hand to control: How, where & how much employees spend",
     THIRD_ICON_TEXT: "Lengthy manual reconciliation.",
+    BEX_HANDLES: "BEX handles",
+    HARD_STUFF: "the hard stuff",
+    DIGITIZE_YOUR_EXPENSE_POLICY: "Digitize your expense policy",
+    SET_YOUR_SPENDING_POLICIES: "Set your spending policies and simplify your administration process.",
+    APPLY_SPENDING_LIMITS: "Apply spending limits and restrictions based on each employee profile and business needs",
+    CONTROL: "Control",
+    SPEND: "Spend",
   },
   ar: {
   },
