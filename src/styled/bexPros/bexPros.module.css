@@ -5,6 +5,7 @@
   padding-right: 7.5%;
   display: flex;
   justify-content: start;
+  width: 100vw;
 }
 
 .circle {
@@ -32,6 +33,11 @@
   justify-content: center;
   margin-top: 6px;
   color: #30c6c6;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: start;
 }
 
 .row {
@@ -74,4 +80,66 @@
   line-height: 1.5;
   text-align: left;
   color: white;
+}
+
+.imageObjectFit {
+  object-fit: contain;
+}
+
+.imageContainer {
+  object-fit: contain;
+  margin-left: 11%;
+}
+
+@media (max-width: 768px) {
+  .titleRow {
+    display: inline;
+  }
+
+  .circle {
+    height: 34px;
+    width: 34px;
+    margin-top: 50px;
+    margin-right: 24px;
+  }
+
+  .saveText {
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+
+  .timeIsMoney {
+    margin-top: 4.5%;
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .signText {
+    margin-left: 2%;
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .container {
+    height: auto;
+    background-color: #306bdd;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    display: block;
+    margin-top: -50px;
+    padding-top: 50px;
+  }
+
+  .imageContainer {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 58px;
+    width: 90vw;
+    object-fit: fill;
+  }
 }

@@ -87,21 +87,6 @@
   color: white;
 }
 
-@media (max-width: 768px) {
-  .businessExpenseManagementMadeEasy {
-    width: 84%;
-    height: 16%;
-    margin-top: 100%;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
-    font-family: Gilroy;
-    font-size: 35px;
-    font-weight: 800;
-    line-height: 1.13;
-    text-align: left;
-    color: white;
-  }
-}
-
 .controlSpendSave {
   width: 44%;
   height: 4%;
@@ -111,19 +96,6 @@
   line-height: 1.46;
   text-align: left;
   color: white;
-}
-
-@media (max-width: 768px) {
-  .controlSpendSave {
-    width: 70%;
-    height: 2%;
-    font-family: Lato;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.46;
-    text-align: left;
-    color: white;
-  }
 }
 
 .row {
@@ -139,18 +111,6 @@
   display: grid;
   place-items: center;
   margin-right: 1%;
-}
-
-@media (max-width: 768px) {
-  .tryItForFreeContainer {
-    margin-top: 11%;
-    width: 40%;
-    height: 6%;
-    background-color: #306bdd;
-    display: grid;
-    place-items: center;
-    margin-right: 4%;
-  }
 }
 
 .tryItForFreeText {
@@ -172,17 +132,6 @@
   border: solid 1px white;
 }
 
-@media (max-width: 768px) {
-  .getYourDemoContainer {
-    margin-top: 11%;
-    width: 40%;
-    height: 6%;
-    display: grid;
-    place-items: center;
-    border: solid 1px white;
-  }
-}
-
 .poweredByText {
   font-family: Poppins;
   font-size: 14px;
@@ -195,13 +144,10 @@
   color: #d7d9de;
 }
 
-@media (max-width: 768px) {
-  .poweredByContainer {
-    display: flex;
-    margin-top: 10%;
-    padding-bottom: 20%;
-    margin-bottom: 15%;
-  }
+.poweredByContainer {
+  display: flex;
+  margin-top: 10%;
+  padding-bottom: 20%;
 }
 
 .divider {
@@ -210,4 +156,55 @@
   margin-right: 2%;
   border-left: 1px solid #d7d9de;
   height: 40px;
+}
+
+@media (max-width: 768px) {
+  .getYourDemoContainer {
+    margin-top: 11%;
+    width: 40%;
+    height: 6%;
+    display: grid;
+    place-items: center;
+    border: solid 1px white;
+  }
+
+  .poweredByContainer {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 16%;
+  }
+
+  .tryItForFreeContainer {
+    margin-top: 11%;
+    width: 40%;
+    height: 6%;
+    background-color: #306bdd;
+    display: grid;
+    place-items: center;
+    margin-right: 4%;
+  }
+
+  .controlSpendSave {
+    width: 70%;
+    height: 2%;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.46;
+    text-align: left;
+    color: white;
+  }
+
+  .businessExpenseManagementMadeEasy {
+    width: 84%;
+    height: 16%;
+    margin-top: 100%;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    font-family: Gilroy;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.13;
+    text-align: left;
+    color: white;
+  }
 }

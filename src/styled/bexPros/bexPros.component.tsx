@@ -6,6 +6,7 @@ import styles from "./bexPros.module.css";
 
 import SignTwoLogo from "&assets/Sign_2/Sign.webp";
 import SaveLogo from "&assets/Save-img/Save-img.webp";
+import SaveLogoTwo from "&assets/save-img_2/save-img.webp";
 
 interface Props {}
 
@@ -14,29 +15,32 @@ const BexPros = (props: Props) => {
   return (
     <div className={styles.container}>
       <div>
-      <div className={styles.row}>
-        <div className={styles.circle}>
-          <p className={styles.numberText}>3</p>
+        <div className={styles.titleRow}>
+          <div className={styles.circle}>
+            <p className={styles.numberText}>3</p>
+          </div>
+          <p className={styles.saveText}>{t("SAVE")}</p>
         </div>
-        <p className={styles.saveText}>{t("SAVE")}</p>
-      </div>
-      <p className={styles.timeIsMoney}>
-        {t("TIME_IS_MONEY").toUpperCase()}
-        <br></br>
-        {t("SAVE_BOTH").toUpperCase()}
-      </p>
-      <div>
-        <div className={styles.row}>
-          <img src={SignTwoLogo} style={{ objectFit: "contain" }}/>
-          <p className={styles.signText}>{t("DIGITIZE_YOUR_BUSINESS")}</p>
+        <p className={styles.timeIsMoney}>
+          {t("TIME_IS_MONEY").toUpperCase()}
+          <br></br>
+          {t("SAVE_BOTH").toUpperCase()}
+        </p>
+        <div>
+          <div className={styles.row}>
+            <img src={SignTwoLogo} className={styles.imageObjectFit} />
+            <p className={styles.signText}>{t("DIGITIZE_YOUR_BUSINESS")}</p>
+          </div>
+          <div className={styles.row}>
+            <img src={SignTwoLogo} className={styles.imageObjectFit} />
+            <p className={styles.signText}>{t("IDENTIDY_WASTEFUL_SPEND")}</p>
+          </div>
         </div>
-        <div className={styles.row}>
-          <img src={SignTwoLogo} style={{ objectFit: "contain" }}/>
-          <p className={styles.signText}>{t("IDENTIDY_WASTEFUL_SPEND")}</p>
-        </div>
       </div>
-      </div>
-      {/* <img src={SaveLogo} style={{ objectFit: "contain", marginLeft: "11%" }}/> */}
+      <img
+        src={window.innerWidth > 768 ? SaveLogo : SaveLogoTwo}
+        className={styles.imageContainer}
+      />
     </div>
   );
 };
