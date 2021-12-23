@@ -4,6 +4,12 @@
   width: 100vw;
 }
 
+@media (max-width: 768px) {
+  .container {
+    height: 800px;
+  }
+}
+
 .subContainer {
   margin-left: 7.5%;
   margin-right: 7.5%;
@@ -16,10 +22,7 @@
 
 @media (max-width: 768px) {
   .subContainer {
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-    background-color: white;
-    height: 585px;
+    height: 700px;
   }
 }
 
@@ -41,12 +44,18 @@
   font-family: Gilroy;
   font-size: 40px;
   font-weight: 800;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.13;
-  letter-spacing: normal;
   text-align: left;
   color: #00194a;
+}
+
+@media (max-width: 768px) {
+  .whatAreYourChallenges {
+    margin-top: 6.3%;
+    width: 75%;
+    height: 11%;
+    font-size: 30px;
+  }
 }
 
 .dayToDayBusiness {
@@ -56,20 +65,32 @@
   margin-left: 12.5%;
   font-family: Lato;
   font-size: 22px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.32;
-  letter-spacing: normal;
-  text-align: left;
   color: #00194a;
-  display: flex;
+}
+
+@media (max-width: 768px) {
+  .dayToDayBusiness {
+    width: 75%;
+    height: 8.5%;
+    margin-top: 3.5%;
+    line-height: 1.32;
+    text-align: center;
+  }
 }
 
 .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: inline;
+    text-align: center;
+    align-content: center;
+  }
 }
 
 .firstIconContainer {
@@ -82,6 +103,13 @@
   margin-bottom: 4%;
 }
 
+@media (max-width: 768px) {
+  .firstIconContainer {
+    margin-top: 8%;
+    justify-content: center;
+  }
+}
+
 .firstIconContainerText {
   width: 65%;
   height: 10%;
@@ -89,10 +117,8 @@
   padding-top: 2%;
   font-family: Lato;
   font-weight: 500;
-  font-stretch: normal;
   font-style: normal;
   line-height: 1.22;
-  letter-spacing: normal;
   text-align: left;
   color: #000000;
 }
@@ -103,6 +129,12 @@
   width: 80%;
 }
 
+@media (max-width: 768px) {
+  .divider {
+    margin: auto;
+  }
+}
+
 .otherIconContainer {
   display: flex;
   flex-direction: row;
@@ -111,4 +143,10 @@
   align-items: center;
   align-content: center;
   margin-bottom: 4%;
+}
+
+@media (max-width: 768px) {
+  .otherIconContainer {
+    justify-content: center;
+  }
 }

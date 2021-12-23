@@ -28,7 +28,7 @@ const SecondContainer = (props: Props) => {
               {t("DAY_TO_DAY_BUSINESS")}
             </p>
           </div>
-          <div>
+          <div style={{alignContent: "center", alignSelf: "center"}}>
             <div className={styles.firstIconContainer}>
               <img src={FirstLogo} />
               <p className={styles.firstIconContainerText}>{t("FIRST_ICON_TEXT")}</p>
