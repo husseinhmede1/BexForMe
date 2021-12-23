@@ -1,6 +1,7 @@
 .container {
   background-color: #f0f0f0;
   height: 945px;
+  width: 100vw;
 }
 
 .title {
@@ -33,6 +34,15 @@
   margin-top: 10px;
   width: 25%;
   height: 490px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.middlePackageContainer{
+  height: 509px;
+  width: 25%;
   background-color: white;
   align-items: center;
   justify-content: center;
@@ -101,11 +111,7 @@
 .packageBenefits {
   font-family: Lato;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.53;
-  letter-spacing: normal;
   text-align: center;
   color: #2e2e2e;
   margin-top: 9px;
@@ -168,4 +174,101 @@
 
 .packageBenefitUsers {
   font-weight: bold;
+}
+
+.imageContainer {
+  object-fit: scale-down;
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-color: #f0f0f0;
+    height: auto;
+    width: 100vw;
+  }
+  
+  .title {
+    padding-top: 63px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .packageContainer {
+    margin-top: 49px;
+    width: 90%;
+    height: 500px;
+    margin-bottom: 10%;
+  }
+
+  .row {
+    overflow:auto;
+    white-space: nowrap;
+    width: 100vw;
+    height: auto;
+  }
+
+  .packageTitle {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+  }
+
+  .packageStartingAt {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .packagePriceCurrency {
+    font-size: 25px;
+  }
+
+  .packagePriceCurrency {
+    font-size: 29px;
+  }
+
+  .packageUserMonth {
+    font-size: 12px;
+  }
+
+  .middlePackageContainer{
+    margin-top: 49px;
+    width: 90%;
+    height: 500px;
+  }
+
+  .packageBeneftisRow {
+    height: 50px;
+    justify-content: right;
+    margin-left: -40%;
+  }
+
+  .packageBenefits {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 9px;
+    margin-left: -40%;
+  }
+
+  .packageStolenCard {
+    font-size: 12px;
+  }
+
+  .packageStolenCardCurrency {
+    font-size: 12px;
+  }
+
+  .contactUs {
+    font-size: 17px;
+  }
+
+  .packageBenefitDescription {
+    font-size: 12px;
+  }
 }

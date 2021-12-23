@@ -4,12 +4,6 @@
   width: 100vw;
 }
 
-@media (max-width: 768px) {
-  .container {
-    height: 800px;
-  }
-}
-
 .subContainer {
   margin-left: 7.5%;
   margin-right: 7.5%;
@@ -18,12 +12,6 @@
   margin-top: -14%;
   position: relative;
   z-index: 5;
-}
-
-@media (max-width: 768px) {
-  .subContainer {
-    height: 700px;
-  }
 }
 
 .arrowContainer {
@@ -49,17 +37,6 @@
   color: #00194a;
 }
 
-@media (max-width: 768px) {
-  .whatAreYourChallenges {
-    margin-top: 6.3%;
-    margin-left: 0%;
-    width: auto;
-    height: 11%;
-    font-size: 30px;
-    text-align: center;
-  }
-}
-
 .dayToDayBusiness {
   width: 30%;
   height: 20%;
@@ -71,28 +48,10 @@
   color: #00194a;
 }
 
-@media (max-width: 768px) {
-  .dayToDayBusiness {
-    width: 75%;
-    height: 8.5%;
-    margin-top: 3.5%;
-    line-height: 1.32;
-    text-align: center;
-  }
-}
-
 .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .row {
-    display: inline;
-    text-align: center;
-    align-content: center;
-  }
 }
 
 .firstIconContainer {
@@ -103,13 +62,6 @@
   align-items: center;
   align-content: center;
   margin-bottom: 4%;
-}
-
-@media (max-width: 768px) {
-  .firstIconContainer {
-    margin-top: 8%;
-    justify-content: center;
-  }
 }
 
 .firstIconContainerText {
@@ -131,12 +83,6 @@
   width: 80%;
 }
 
-@media (max-width: 768px) {
-  .divider {
-    margin: auto;
-  }
-}
-
 .otherIconContainer {
   display: flex;
   flex-direction: row;
@@ -150,5 +96,50 @@
 @media (max-width: 768px) {
   .otherIconContainer {
     justify-content: center;
+  }
+
+  .firstIconContainerText {
+    width: 46%;
+    height: 7%;
+    font-size: 13px;
+  }
+
+  .divider {
+    margin: auto;
+  }
+
+  .firstIconContainer {
+    margin-top: 8%;
+    justify-content: center;
+  }
+
+  .row {
+    display: inline;
+    text-align: center;
+    align-content: center;
+  }
+
+  .container {
+    height: 700px;
+  }
+
+  .subContainer {
+    height: 620px;
+  }
+
+  .whatAreYourChallenges {
+    margin-top: 6.3%;
+    width: auto;
+    height: 11%;
+    font-size: 30px;
+  }
+
+  .dayToDayBusiness {
+    width: 75%;
+    height: 8.5%;
+    margin-top: 3.5%;
+    line-height: 1.32;
+    text-align: left;
+    font-size: 13px;
   }
 }
