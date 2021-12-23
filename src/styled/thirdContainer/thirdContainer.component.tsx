@@ -69,7 +69,7 @@ const ThirdContainer = (props: Props) => {
             </p>
           </div>
         </div>
-        <img src={ControlLogo} className={styles.imageContainer} />
+        {/* <img src={ControlLogo} className={styles.imageContainer} /> */}
       </div>
     </div>
   );

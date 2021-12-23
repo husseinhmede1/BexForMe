@@ -36,7 +36,7 @@ const BexPros = (props: Props) => {
         </div>
       </div>
       </div>
-      <img src={SaveLogo} style={{ objectFit: "contain", marginLeft: "11%" }}/>
+      {/* <img src={SaveLogo} style={{ objectFit: "contain", marginLeft: "11%" }}/> */}
     </div>
   );
 };

@@ -1,24 +1,20 @@
 @media (min-width: 320px) {
   .bg_image {
-    background: url("../../../assets/BG Cover/BG Cover.webp");
+    background: url("../../../assets/Main BG/Main BG.webp");
     background-size: cover;
     width: 100vw;
     padding-left: 7.5%;
     padding-right: 7.5%;
-    position: relative;
-    z-index: 1;
   }
 }
 
 @media (min-width: 768px) {
   .bg_image {
-    background: url("../../../assets/BG Cover/BG Cover@2x.webp");
+    background: url("../../../assets/Main BG/Main BG.webp");
     background-size: cover;
     width: 100vw;
     padding-left: 7.5%;
     padding-right: 7.5%;
-    position: relative;
-    z-index: 1;
   }
 }
 
@@ -69,6 +65,12 @@
   margin-right: 25%;
 }
 
+.menuContainer {
+  position: absolute;
+  right: 8%;
+  top: 4%;
+}
+
 .businessExpenseManagementMadeEasy {
   width: 44%;
   height: 21%;
@@ -85,18 +87,43 @@
   color: white;
 }
 
+@media (max-width: 768px) {
+  .businessExpenseManagementMadeEasy {
+    width: 84%;
+    height: 16%;
+    margin-top: 100%;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    font-family: Gilroy;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.13;
+    text-align: left;
+    color: white;
+  }
+}
+
 .controlSpendSave {
   width: 44%;
   height: 4%;
   font-family: Lato;
   font-size: 24px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.46;
-  letter-spacing: normal;
   text-align: left;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .controlSpendSave {
+    width: 70%;
+    height: 2%;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.46;
+    text-align: left;
+    color: white;
+  }
 }
 
 .row {
@@ -112,6 +139,18 @@
   display: grid;
   place-items: center;
   margin-right: 1%;
+}
+
+@media (max-width: 768px) {
+  .tryItForFreeContainer {
+    margin-top: 11%;
+    width: 40%;
+    height: 6%;
+    background-color: #306bdd;
+    display: grid;
+    place-items: center;
+    margin-right: 4%;
+  }
 }
 
 .tryItForFreeText {
@@ -133,6 +172,17 @@
   border: solid 1px white;
 }
 
+@media (max-width: 768px) {
+  .getYourDemoContainer {
+    margin-top: 11%;
+    width: 40%;
+    height: 6%;
+    display: grid;
+    place-items: center;
+    border: solid 1px white;
+  }
+}
+
 .poweredByText {
   font-family: Poppins;
   font-size: 14px;
@@ -145,10 +195,13 @@
   color: #d7d9de;
 }
 
-.poweredByContainer {
-  display: flex;
-  margin-top: 10%;
-  padding-bottom: 20%;
+@media (max-width: 768px) {
+  .poweredByContainer {
+    display: flex;
+    margin-top: 10%;
+    padding-bottom: 20%;
+    margin-bottom: 15%;
+  }
 }
 
 .divider {

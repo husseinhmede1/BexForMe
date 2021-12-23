@@ -14,6 +14,15 @@
   z-index: 5;
 }
 
+@media (max-width: 768px) {
+  .subContainer {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background-color: white;
+    height: 585px;
+  }
+}
+
 .arrowContainer {
   background-color: #306bdd;
   height: 111px;
