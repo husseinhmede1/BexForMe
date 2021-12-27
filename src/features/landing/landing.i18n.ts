@@ -60,6 +60,10 @@ export const landingNameSpace = {
     BENEFITS_RECTANGLE_THIRD_TEXT: "stated ‘improved cash flow’",
     BENEFITS_RECTANGLE_FOURTH_TEXT: "stated ‘improved visibility and data reporting’",
     BENEFITS_RECTANGLE_FIFTH_TEXT: "stated ‘reduced admin cost’",
+    WE_ARE_BEX: "We are bex",
+    WE_ARE_BEX_FIRST_TEXT: "Designed by a team of experts from areeba and Mastercard with extensive knowledge in fintech  and digital payments, with the mission of helping businesses save time and money",
+    WE_ARE_BEX_SECOND_TEXT: "areeba is a leading financial technology company driven forward by the innovative  approach of changing the way payments are made. For more info visit our website ",
+    WE_ARE_BEX_THIRD_TEXT: "Mastercard is a global technology company in the payments industry. Our mission is to connect and power an inclusive, digital economy that benefits everyone, everywhere by making transactions safe, simple, smart and accessible. For more info visit our website ",
   },
   ar: {
   },

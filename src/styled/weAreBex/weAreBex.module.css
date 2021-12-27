@@ -1,0 +1,52 @@
+.container {
+  width: 100vw;
+  height: 800px;
+  background: url("../../assets/We-are-bex-cover/We-are-bex-cover.webp");
+  background-size: cover;
+  display: flex;
+  padding-left: 7.5%;
+  padding-top: 85px;
+}
+
+.weAreBex {
+  font-family: Gilroy-ExtraBold;
+  font-size: 70px;
+  line-height: 70px;
+  color: white;
+}
+
+.weAreBexFirstText {
+  font-family: Lato-Regular;
+  font-size: 17px;
+  line-height: 25px;
+  color: white;
+  width: 35%;
+}
+
+.imageContainer {
+  object-fit: contain;
+  margin-top: 8%;
+}
+
+.areebaTextContainer {
+  object-fit: contain;
+  margin-top: 130px;
+}
+
+.weAreBexSecondText {
+  font-family: Lato-Regular;
+  font-size: 17px;
+  line-height: 25px;
+  color: white;
+  width: 50%;
+  margin-top: 15px;
+}
+
+.areebaWebsite {
+  color: white;
+  text-decoration: underline;
+}
+
+.spaceContainer {
+  margin-left: 15%;
+}

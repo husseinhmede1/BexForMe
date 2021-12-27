@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 
 import styles from "./tryBex.module.css";
 
-import AppleLogo from "../../assets/Apple Icon/Apple Icon.webp";
-import PlaystoreLogo from "../../assets/Google play/Google play.webp";
-import TryBexLogo from "../../assets/Try-BEX-img/Try-BEX-img.webp";
+import AppleLogo from "&assets/Apple Icon/Apple Icon.webp";
+import PlaystoreLogo from "&assets/Google play/Google play.webp";
+import TryBexLogo from "&assets/Try-BEX-img/Try-BEX-img.webp";
 
 interface Props {}
 
