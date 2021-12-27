@@ -110,3 +110,83 @@
   margin-left: 40px;
   margin-top: -100px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .imageContainer {
+    object-fit: contain;
+    width: 314px;
+    height: 290px;
+  }
+
+  .benefits {
+    margin-left: 0px;
+    margin-top: 1%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .firstRectangle {
+    margin-top: -80px;
+    margin-left: 0px;
+    width: 40%;
+    height: 130px;
+    background-color: #00194a;
+  }
+
+  .rectangleTitle {
+    font-size: 32px;
+  }
+  
+  .rectangleSubTitle {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .secondRectangle {
+    margin-top: -40px;
+    width: 40%;
+    height: 150px;
+  }
+  
+  .blackRectangleTitle {
+    font-size: 32px;
+  }
+  
+  .blackRectangleSubTitle {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .thirdRectangle {
+    margin-top: 90px;
+    margin-left: -25%;
+    width: 40%;
+    height: 130px;
+  }
+
+  .fifthRectangle {
+    width: 35%;
+    height: 130px;
+    margin-left: 20%;
+    margin-top: -50px;
+  }
+
+  .fourthRectangle {
+    width: 70%;
+    height: 95px;
+    margin-top: 0%;
+    margin-left: 0px;
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .fourthRectangleSubTitle {
+    width: 100%;
+    font-size: 12px;
+  }
+}

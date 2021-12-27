@@ -12,9 +12,17 @@ const Benefits = (props: Props) => {
   const { t } = useTranslation(["landing"]);
   return (
     <div className={styles.container}>
-      <img src={BenefitsLogo} className={styles.imageContainer} />
-      <div>
+      {window.innerWidth > 768 ? (
+        <img src={BenefitsLogo} className={styles.imageContainer} />
+      ) : (
         <p className={styles.benefits}>{t("BENEFITS").toUpperCase()}</p>
+      )}
+      <div>
+        {window.innerWidth > 768 ? (
+          <p className={styles.benefits}>{t("BENEFITS").toUpperCase()}</p>
+        ) : (
+          <img src={BenefitsLogo} className={styles.imageContainer} />
+        )}
         <div className={styles.row}>
           <div className={styles.firstRectangle}>
             <p className={styles.rectangleTitle}>53%</p>
@@ -35,7 +43,9 @@ const Benefits = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className={styles.row}>
+        {
+          window.innerWidth > 768 ? 
+          <div className={styles.row}>
           <div className={styles.fourthRectangle}>
             <p className={styles.blackRectangleTitle}>63%</p>
             <p className={styles.fourthRectangleSubTitle}>
@@ -48,7 +58,22 @@ const Benefits = (props: Props) => {
               {t("BENEFITS_RECTANGLE_FIFTH_TEXT")}
             </p>
           </div>
-        </div>
+        </div> : 
+           <div>
+           <div className={styles.fifthRectangle}>
+             <p className={styles.blackRectangleTitle}>68%</p>
+             <p className={styles.blackRectangleSubTitle}>
+               {t("BENEFITS_RECTANGLE_FIFTH_TEXT")}
+             </p>
+           </div>
+           <div className={styles.fourthRectangle}>
+             <p className={styles.blackRectangleTitle}>63%</p>
+             <p className={styles.fourthRectangleSubTitle}>
+               {t("BENEFITS_RECTANGLE_FOURTH_TEXT")}
+             </p>
+           </div>
+         </div>
+        }
       </div>
     </div>
   );
