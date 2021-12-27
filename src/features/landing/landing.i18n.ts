@@ -54,6 +54,12 @@ export const landingNameSpace = {
     UNLIMITED: "Unlimited",
     TRY_BEX_FOR_FREE: "Try BEX For Free",
     MONTH_USERS_DIGITAL_CARD_ONLY: "1 Month | 3 Users | Digital Card only",
+    BENEFITS: "Benefits",
+    BENEFITS_RECTANGLE_FIRST_TEXT: "stated ‘improved supplier relations’",
+    BENEFITS_RECTANGLE_SECOND_TEXT: "stated ‘reduced number of approvals",
+    BENEFITS_RECTANGLE_THIRD_TEXT: "stated ‘improved cash flow’",
+    BENEFITS_RECTANGLE_FOURTH_TEXT: "stated ‘improved visibility and data reporting’",
+    BENEFITS_RECTANGLE_FIFTH_TEXT: "stated ‘reduced admin cost’",
   },
   ar: {
   },
