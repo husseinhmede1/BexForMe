@@ -1,0 +1,33 @@
+.container {
+  width: 100vw;
+  height: 950px;
+  background: url("../../assets/Try-bex-Cover/Try-bex-Cover.webp");
+  background-size: cover;
+  margin-top: -15px;
+}
+
+.tryBexForFree {
+  width: 28%;
+  height: 50%;
+  padding-top: 20%;
+  padding-left: 7.5%;
+  font-family: Gilroy;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 100px;
+  text-align: left;
+  color: white;
+}
+
+.month_users_digital_card_only {
+  padding-left: 7.5%;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}

@@ -52,6 +52,8 @@ export const landingNameSpace = {
     MULTIPLE_ENTITY_CONSOLIDATION: "Multiple entity consolidation",
     FREE_UP_TO_FIVE: "Free up to 5, then AED 5",
     UNLIMITED: "Unlimited",
+    TRY_BEX_FOR_FREE: "Try BEX For Free",
+    MONTH_USERS_DIGITAL_CARD_ONLY: "1 Month | 3 Users | Digital Card only",
   },
   ar: {
   },

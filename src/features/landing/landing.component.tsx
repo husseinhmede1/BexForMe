@@ -9,6 +9,7 @@ import { SecondContainer } from "&styled/secondContainer/secondContainer.compone
 import { ThirdContainer } from "&styled/thirdContainer/thirdContainer.component";
 import { BexPros } from "&styled/bexPros/bexPros.component";
 import { Packages } from "&styled/packages/packages.component";
+import { TryBex } from "&styled/tryBex/tryBex.component";
 
 type ReduxProps = ConnectedProps<typeof connector>;
 
@@ -19,11 +20,12 @@ const LandingComponent = (props: ReduxProps) => {
 
   return (
     <>
-    <FirstContainer t={t}/>
-    <SecondContainer t={t} />
-    <ThirdContainer t={t} />
-    <BexPros/>
-    <Packages/>
+      <FirstContainer t={t} />
+      <SecondContainer t={t} />
+      <ThirdContainer t={t} />
+      <BexPros />
+      <Packages />
+      <TryBex />
     </>
   );
 };
